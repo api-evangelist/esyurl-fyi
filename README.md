@@ -1,4 +1,4 @@
-# esyurl-fyi
+# esyURL
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-esyurl-fyi is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://esyurl.fyi/
+esyURL provides a short‑link and QR‑code service designed for AI agents. Since 2007 it lets agents create custom domains, redirect rules, and QR styles via a REST‑style MCP API. The platform offers a llms.txt prompt interface, auth.md documentation, and openapi.json spec for programmatic use. It targets developers building autonomous agents that need reliable link shortening and tracking, with usage statistics and bot detection. The service is operated by Filipe Boldo and emphasizes privacy, terms of use, and a simple, dashboard‑free experience.
+
+**Areas:** Company · ShortLinks · QRCodes · AIAgents · MCP
+
+## esyURL on APIs.io
+
+Everything profiled for esyURL is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/esyurl-fyi/](https://apis.io/providers/esyurl-fyi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [esyURL Auth API](https://apis.io/apis/esyurl-fyi/esyurl-fyi-auth-api/) — The auth API from esyURL — 7 operation(s) for auth.
+- [esyURL Domain API](https://apis.io/apis/esyurl-fyi/esyurl-fyi-domain-api/) — The domain API from esyURL — 2 operation(s) for domain.
+- [esyURL Groups API](https://apis.io/apis/esyurl-fyi/esyurl-fyi-groups-api/) — The groups API from esyURL — 5 operation(s) for groups.
+- [esyURL Links API](https://apis.io/apis/esyurl-fyi/esyurl-fyi-links-api/) — The links API from esyURL — 6 operation(s) for links.
+- [esyURL MCP API](https://apis.io/apis/esyurl-fyi/esyurl-fyi-mcp-api/) — The Mcp API from esyURL — 1 operation(s) for mcp.
+- [esyURL Me API](https://apis.io/apis/esyurl-fyi/esyurl-fyi-me-api/) — The Me API from esyURL — 1 operation(s) for me.
+- [esyURL Public API](https://apis.io/apis/esyurl-fyi/esyurl-fyi-public-api/) — The public API from esyURL — 7 operation(s) for public.
+- [esyURL Render API](https://apis.io/apis/esyurl-fyi/esyurl-fyi-render-api/) — The Render API from esyURL — 1 operation(s) for render.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Esyurl Fyi Agentic Access](https://apis.io/agentic-access/esyurl-fyi/esyurl-fyi-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [LinkPageInput](https://apis.io/schemas/esyurl-fyi/esyurl-fyi-link-page-input/)
+- [LinkVisits](https://apis.io/schemas/esyurl-fyi/esyurl-fyi-link-visits/)
+- [Me](https://apis.io/schemas/esyurl-fyi/esyurl-fyi-me/)
+- [RenderRequest](https://apis.io/schemas/esyurl-fyi/esyurl-fyi-render-request/)
+- [ShortLink](https://apis.io/schemas/esyurl-fyi/esyurl-fyi-short-link/)
+- [UpdateLink](https://apis.io/schemas/esyurl-fyi/esyurl-fyi-update-link/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Esyurl Fyi Context](https://apis.io/jsonld/esyurl-fyi/esyurl-fyi-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [esyURL API Rules](https://apis.io/rules/esyurl-fyi/esyurl-fyi-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Esyurl Fyi Authentication](https://apis.io/security/esyurl-fyi/esyurl-fyi-authentication/)
+- [Esyurl Fyi Domain Security](https://apis.io/security/esyurl-fyi/esyurl-fyi-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://esyurl.fyi/)
+- [Documentation](https://esyurl.fyi/llms.txt)
+- [Getting started](https://esyurl.fyi/llms.txt)
+- [API reference](https://esyurl.fyi/openapi.json)
+- [Terms of service](https://esyurl.fyi/legal/terms)
+- [Privacy policy](https://esyurl.fyi/legal/privacy)
+- [GitHub](https://github.com/fboldo)
+
+## API Evangelist rating
+
+**Kin Score 46.3** — developing · rubric 0.27.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 61.7 |
+| Contract quality | 59.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 21.1 |
+
+**Agent readiness 55.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/esyurl-fyi/](https://apis.io/providers/esyurl-fyi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for esyURL: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/esyurl-fyi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
